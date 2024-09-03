@@ -1,5 +1,14 @@
 # Web-Scraping-com-Scrapy
 
+para rodar o web scraping
+
 ```bash
-scrapy crawl mercadolivre -o ../date/data.jsonl
+scrapy crawl mercadolivre -o ../../data/data.jsonl
+```
+
+
+Para rodar o PANDAS tem que fazer isso dentro da pasta SRC
+
+```bash
+python transformacao/main.py
 ```
